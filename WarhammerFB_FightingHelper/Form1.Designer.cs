@@ -110,6 +110,10 @@
             this.label23 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar3)).BeginInit();
@@ -447,7 +451,6 @@
             this.label3.Size = new System.Drawing.Size(44, 23);
             this.label3.TabIndex = 36;
             this.label3.Text = "+60";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label4
             // 
@@ -883,27 +886,63 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(25, 616);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(192, 48);
             this.button1.TabIndex = 82;
-            this.button1.Text = "button1";
+            this.button1.Text = "Сохранить профиль";
             this.button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button2.Location = new System.Drawing.Point(895, 616);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 48);
             this.button2.TabIndex = 83;
-            this.button2.Text = "button2";
+            this.button2.Text = "Сохранить профиль";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button3.Location = new System.Drawing.Point(268, 616);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(202, 48);
+            this.button3.TabIndex = 84;
+            this.button3.Text = "Просчитать";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.button5.Location = new System.Drawing.Point(1148, 616);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(202, 48);
+            this.button5.TabIndex = 86;
+            this.button5.Text = "Просчитать";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.BackgroundImage = global::WarhammerFB_FightingHelper.Properties.Resources._1642354959_30_papik_pro_p_gaika_klipart_31;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Location = new System.Drawing.Point(1663, 9);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(84, 63);
+            this.button4.TabIndex = 87;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1759, 765);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label9);
@@ -1081,5 +1120,9 @@
         private Label label23;
         private Button button1;
         private Button button2;
+        private Button button3;
+        private Button button5;
+        private Button button4;
+        private FolderBrowserDialog folderBrowserDialog1;
     }
 }

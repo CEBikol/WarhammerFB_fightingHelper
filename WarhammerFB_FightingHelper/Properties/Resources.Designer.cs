@@ -59,5 +59,15 @@ namespace WarhammerFB_FightingHelper.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1642354959_30_papik_pro_p_gaika_klipart_31 {
+            get {
+                object obj = ResourceManager.GetObject("1642354959_30-papik-pro-p-gaika-klipart-31", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
